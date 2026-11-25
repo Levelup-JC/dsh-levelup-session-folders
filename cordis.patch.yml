@@ -1,0 +1,7 @@
+# dsh-levelup-session-folders 的 bundle patch —— 把会话分组面板挂进 DSH 配置树。
+#
+# id 必须全局唯一且与包名一致：DSH 商城上架契约按 id 比对 entryIds。
+# 插件行（"id: 值"）后不能写行尾注释，否则商城预检抓不到 entry ID。
+- insert:
+    - id: dsh-levelup-session-folders
+      name: 'dsh-levelup-session-folders'
