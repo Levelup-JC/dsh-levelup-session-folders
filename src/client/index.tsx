@@ -38,7 +38,6 @@ function GuideIcon({ size = 16 }: { size?: number }): JSX.Element {
 }
 
 export function apply(ctx: any): void {
-  console.info('[dsh-session-groups] client loaded')
   ctx.effect(() => ctx.locale.register(NS, { zh, en }), 'dsh-session-groups: copy')
   const t = ctx.locale.bind(NS)
 
