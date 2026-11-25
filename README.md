@@ -28,13 +28,23 @@
 
 ## 安装
 
-在 DSH 桌面应用的「插件管理」安装框里填本包名，或用 CLI：
+**从插件索引安装（推荐）**
 
-```sh
-dsh plugin --profile desktop add dsh-levelup-session-folders
+在 DSH 的「插件」页打开「发现」，点「添加索引源」，填入：
+
+```
+https://raw.githubusercontent.com/Levelup-JC/dsh-levelup-session-folders/main/market/index.json
 ```
 
-本地开发时直接指向本目录：
+然后搜索「会话分组」，点安装，重开 DSH。
+
+**从 Git 仓库直接安装**
+
+```sh
+dsh plugin --profile desktop add "git+https://github.com/Levelup-JC/dsh-levelup-session-folders.git#v0.1.1"
+```
+
+**本地开发**
 
 ```sh
 dsh plugin --profile desktop add /path/to/dsh-session-groups

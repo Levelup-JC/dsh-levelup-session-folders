@@ -34,3 +34,11 @@
 - `dsh plugin --profile web add <本地目录>` 安装成功，配置树中出现 `dsh-levelup-session-folders` 行。
 - `dsh web` 客户端模块清单包含 `dsh-levelup-session-folders/client.js`。
 - 浏览器控制台：`[dsh-levelup-session-folders] client loaded`，无 pageerror。
+
+## 上架记录（Git 路线）
+
+- 2026-11-25：公开仓库 https://github.com/Levelup-JC/dsh-levelup-session-folders，tag `v0.1.0`、`v0.1.1`。
+- 市场索引：`market/index.json`，来源为 git + commit，已用官方 `parseMarketIndex` 校验通过。
+- 索引地址：https://raw.githubusercontent.com/Levelup-JC/dsh-levelup-session-folders/main/market/index.json
+- 已验证 `git+https://...#<commit>` 安装成功，客户端模块加载。
+- npm 发布待账号：`dsh-levelup-session-folders` 名字可用，需 `npm login`（GitHub OAuth 可免密码建号）。
