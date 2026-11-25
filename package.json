@@ -1,6 +1,6 @@
 {
   "name": "dsh-levelup-session-folders",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "把会话按文件夹分组显示在 DeepSeek Harness 右侧栏：分组颜色、拖拽排序、两级分组、运行状态与未读提示。",
   "type": "module",
   "main": "lib/index.js",
