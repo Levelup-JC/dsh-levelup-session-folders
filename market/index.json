@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Levelup plugins",
+    "zh": "Levelup 插件"
+  },
+  "description": {
+    "en": "Plugins maintained by Levelup-JC",
+    "zh": "Levelup-JC 维护的 DeepSeek Harness 插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-levelup-session-folders",
+      "title": {
+        "en": "Session groups",
+        "zh": "会话分组"
+      },
+      "description": {
+        "en": "Organize sessions into colored folders in the right sidebar, with drag ordering, two-level nesting, run status and timestamps.",
+        "zh": "把会话按文件夹分组显示在右侧栏：颜色、拖拽排序、两级分组、运行状态与时间。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiBmaWxsPSJub25lIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzFjMWQyMSIvPgogIDxwYXRoIGQ9Ik0xMiAyMWE0IDQgMCAwIDEgNC00aDkuMmw0LjMgNUg0OGE0IDQgMCAwIDEgNCA0djE3YTQgNCAwIDAgMS00IDRIMTZhNCA0IDAgMCAxLTQtNHoiIHN0cm9rZT0iI2U4ODkzYSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTEyIDI5aDQ0IiBzdHJva2U9IiNlODg5M2EiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHJlY3QgeD0iMjEiIHk9IjM1IiB3aWR0aD0iMTIiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI2U4ODkzYSIvPgogIDxyZWN0IHg9IjIxIiB5PSI0MSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIGZpbGw9IiM4Yjk0OWUiLz4KPC9zdmc+Cg==",
+      "author": "Jason Cong",
+      "homepage": "https://github.com/Levelup-JC/dsh-levelup-session-folders#readme",
+      "repository": {
+        "url": "https://github.com/Levelup-JC/dsh-levelup-session-folders"
+      },
+      "metadata": {
+        "keywords": [
+          "sessions",
+          "groups",
+          "folders",
+          "sidebar"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795602101,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Levelup-JC/dsh-levelup-session-folders",
+            "commit": "62f7ca132e51dda3ef2765ba00884499a2431021"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
