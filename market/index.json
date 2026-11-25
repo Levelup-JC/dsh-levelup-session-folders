@@ -35,12 +35,12 @@
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1795602101,
+          "version": "0.1.1",
+          "publishTimestamp": 1795602179,
           "source": {
             "type": "git",
             "url": "https://github.com/Levelup-JC/dsh-levelup-session-folders",
-            "commit": "62f7ca132e51dda3ef2765ba00884499a2431021"
+            "commit": "b349bdb75ea44cf523d22019b5ab673f7d4aaf5f"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.1"
